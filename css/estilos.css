@@ -104,8 +104,8 @@ nav ul li a {
 }
 
 .container2 {
-    max-width: 80%;
-    margin-left: 140px;
+    max-width: 100%;
+    margin-inline: 140px;
     justify-content: center;
     align-items: center;
     
