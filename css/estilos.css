@@ -77,13 +77,16 @@ nav ul li a {
 }
 
 .nav-3 {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
     height: 100%;
 }
 
+.row-nav{
+    background-color:#caffd5;
+    justify-content: center;
+}
 
 .nav-3 .nav-link {
     color: rgb(139, 138, 138);
