@@ -348,3 +348,8 @@ footer h5 {
 .catalogo-productos .card {
     margin: 5px 3px;
 }
+
+.imputReclamos {
+    max-width: 33%;
+    width: 33%;
+}
