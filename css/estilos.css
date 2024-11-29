@@ -329,3 +329,22 @@ footer h5 {
 }
 
 
+.catalogo-card {
+    width: 11rem;
+    border-radius: 10px;
+    border-color: lightgray;
+    user-select: none;
+}
+
+.catalogo-card:hover {
+    box-shadow: 1px 2px 10px lightgray;
+}
+
+.catalogo-card img {
+    height: 12rem;
+    border-radius: 10px;
+}
+
+.catalogo-productos .card {
+    margin: 5px 3px;
+}
