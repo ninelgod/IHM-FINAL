@@ -247,29 +247,6 @@ footer h5 {
     margin-bottom: 20px;
 }
 
-.LOGIN-nav-container {
-    display: flex;
-    justify-content: center; 
-    background-color: #f0fff0; 
-    padding: 10px;
-}
-
-.LOGIN-nav-item {
-    text-align: center;
-    border-bottom: 2px solid #cccccc; 
-    padding: 5px 10px;
-    color: #333333;
-    cursor: pointer;
-    font-weight: bold;
-    transition: border-bottom 0.3s ease, color 0.3s ease; 
-}
-
-.LOGIN-nav-item:hover {
-    background-color: #f0fff0;
-    border-bottom: 2px solid #009900; 
-    color: #009900; 
-}
-
 .LOGIN-title {
     font-size: 24px;
     color: #1E8545;
@@ -292,7 +269,7 @@ footer h5 {
     padding: 10px 15px;
     background-color: #f0f0f0;
     border: none;
-    border-radius: 10px; 
+    border-radius: 50px; 
     cursor: pointer;
     font-size: 14px;
     color: #1E8545;
