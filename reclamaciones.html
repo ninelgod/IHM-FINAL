@@ -1,73 +1,41 @@
 <div class="small">
-    <div class="row">
+    <div class="row mb-3">
     <h3>Libro de reclamaciones</h3>            
     </div>
-    <div class="row">
+    <div class="row mb-3">
         <h4>Datos personales</h4>
     </div>
     <div class="row">
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline mb-3">
                 <input class="form-control imputReclamos" type="search" placeholder="Ingrese email" aria-label="Search">
             </form>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline mb-3">
                 <input class="form-control imputReclamos" type="search" placeholder="Ingrese nombres" aria-label="Search">
             </form>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline mb-3">
                 <input class="form-control imputReclamos"  type="search" placeholder="Ingrese apellidos" aria-label="Search">
             </form>
-    </div>
-    <div class="row">
-            <select class="form-control">
-                    <option value="">Seleccionar tipo de doc</option>
+
+            <select class="form-control col-md-3 imputReclamos mb-3 mr-4">
+                    <option value="">Tipo documento</option>
                     <option value="Amazonas">DNI</option>
                     <option value="Ancash">Pasaporte</option>
 
-              </select>
-        <div class="col imputReclamos">
-            <form class="form-inline my-2 my-lg-0">
+            </select>
+ 
+            <form class="form-inline mb-3">
                 <input class="form-control imputReclamos" type="search" placeholder="Num de documento" aria-label="Search">
             </form>
-        </div>
-        <div class="col imputReclamos">
-            <form class="form-inline my-2 my-lg-0">
+
+            <form class="form-inline mb-3">
                 <input class="form-control imputReclamos" type="search" placeholder="Ingrese celular" aria-label="Search">
             </form>
-        </div>
+  
     </div>
-    <div class="row">
-        <div class="col imputReclamos">
+
+        <div class="col mb-3">
             <select class="form-control">
-                <option value="">Seleccionar Región</option>
-                <option value="Amazonas">Amazonas</option>
-                <option value="Ancash">Ancash</option>
-                <option value="Apurimac">Apurimac</option>
-                <option value="Arequipa">Arequipa</option>
-                <option value="Ayacucho">Ayacucho</option>
-                <option value="Cajamarca">Cajamarca</option>
-                <option value="Callao">Callao</option>
-                <option value="Cusco">Cusco</option>
-                <option value="Huancavelica">Huancavelica</option>
-                <option value="Huánuco">Huánuco</option>
-                <option value="Ica">Ica</option>
-                <option value="Junín">Junín</option>
-                <option value="La Libertad">La Libertad</option>
-                <option value="Lambayeque">Lambayeque</option>
-                <option value="Lima">Lima</option>
-                <option value="Loreto">Loreto</option>
-                <option value="Madre de Dios">Madre de Dios</option>
-                <option value="Moquegua">Moquegua</option>
-                <option value="Pasco">Pasco</option>
-                <option value="Piura">Piura</option>
-                <option value="Puno">Puno</option>
-                <option value="San Martín">San Martín</option>
-                <option value="Tacna">Tacna</option>
-                <option value="Tumbes">Tumbes</option>
-                <option value="Ucayali">Ucayali</option>
-          </select>
-        </div>
-        <div class="col imputReclamos">
-            <select class="form-control">
-                <option value="">Seleccionar Provincia</option>
+                <option value="">Provincia</option>
                 <optgroup label="Amazonas">
                     <option value="Chachapoyas">Chachapoyas</option>
                     <option value="Rodríguez de Mendoza">Rodríguez de Mendoza</option>
@@ -83,24 +51,22 @@
                 </optgroup>
             </select>
         </div>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control imputReclamos" type="search" placeholder="Ingrese celular" aria-label="Search">
-            </form>
     </div>
 
 
         <div class="row">
             <h4>Detalle del reclamo</h4>
         </div>
-        <div class="row">
-                <form class="form-inline my-2 my-lg-0">
+        <div class="row mb-3">
+            <div class="col-md-auto">
+                <form class="form-inline">
                     <input class="form-control imputReclamos" type="search" placeholder="Ingrese monto del reclamo" aria-label="Search">
                 </form>
-        </div>
-        <div class="row">
 
-                <form class="form-inline">
-                    <input class="form-control imputReclamos" type="search" placeholder="Ingrese descripción" aria-label="Search">
-                </form>
+            </div>
         </div>
+            <form class="form-inline mb-3">
+                <input class="form-control imputReclamos" type="search" placeholder="Ingrese descripción" aria-label="Search">
+            </form>
+            <button type="button" class="btn btn-success">Success</button>
 </div>
