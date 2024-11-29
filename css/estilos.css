@@ -45,9 +45,6 @@ header {
     box-shadow: 0 0 5px #16ae0e;
 }
 
-.form-control {
-    padding-right: 40px;
-}
 
 .search-icon {
     position: absolute;
@@ -348,7 +345,7 @@ footer h5 {
 }
 
 .imputReclamos {
-    max-width: 33%;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -398,9 +395,10 @@ footer h5 {
   }
 
   .form-control {
-    
     width: 40%;
   }
+<<<<<<< HEAD
+=======
 
   .row {
     text-align: center;
@@ -478,3 +476,4 @@ footer h5 {
 
 
   
+>>>>>>> ee5c2f78079c94b828fec33b8c94e372c1d0edd6
