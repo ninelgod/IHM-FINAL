@@ -222,6 +222,10 @@ footer h5 {
     align-items: center;         
 }
 
+.LOGIN-logo-container > img {
+    width: 100px;
+}
+
 .LOGIN-bodyLogin {
     background-color: white;
     display: flex;
@@ -339,3 +343,5 @@ footer h5 {
     padding: 10px;
 }
 /*Fin de componentes de login*/
+
+
