@@ -29,6 +29,7 @@ header {
 }
 
 .form-inline .form-control {
+    width: 90%;
     border: 2px solid #16ae0e; 
     background-color: #ffffff;
     color: #16ae0e; 
@@ -42,9 +43,6 @@ header {
 .form-inline .form-control:focus {
     border-color: #0b6c0b; 
     box-shadow: 0 0 5px #16ae0e;
-}
-.form-inline {
-    position: relative;
 }
 
 .form-control {
@@ -395,6 +393,8 @@ footer h5 {
     order: -1;
   }
 
+<<<<<<< HEAD
+=======
   .btn-success {
     border-radius: 30px;
   }
@@ -405,6 +405,7 @@ footer h5 {
   }
 
   
+>>>>>>> 2aedab96d75e70938de106ec14cfa88a1670a0ef
   .row {
     text-align: center;
   }
@@ -469,3 +470,16 @@ footer h5 {
   #parra2 {
     text-align: center
   }
+<<<<<<< HEAD
+  
+  .btn-success {
+    border-radius: 30px;
+  }
+
+  .form-control {
+    
+    width: 40%;
+  }
+
+=======
+>>>>>>> 2aedab96d75e70938de106ec14cfa88a1670a0ef
