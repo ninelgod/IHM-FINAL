@@ -395,3 +395,67 @@ footer h5 {
     order: -1;
   }
   
+  .row {
+    text-align: center;
+  }
+  
+  .valor {
+    margin-bottom: 40px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content img {
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
+  
+  .content p {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #integridad-img {
+    order: -1;
+  }
+  
+  #innovacion-img {
+    order: 1;
+  }
+  
+  #transparencia-img {
+    order: -1;
+  }
+
+  #valor {
+    text-align: center
+  }
+
+  #pol {
+    text-align: center
+  }
+
+  #terminos {
+    text-align: center
+  }
+
+  #contacto {
+    text-align: center
+  }
+
+  #parra1 {
+    text-align: center
+  }
+
+  #parra2 {
+    text-align: center
+  }
