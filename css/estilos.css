@@ -322,7 +322,8 @@ footer h5 {
 /*Fin de componentes de login*/
 
 #logoVerdana {
-    height: 30px;
+    border: #041f01;
+    height: 10px;
     width: auto;
     margin-right: 10px;
 }
