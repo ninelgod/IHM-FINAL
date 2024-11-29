@@ -9,3 +9,4 @@ $(document).ready(function() {
   $("#contacto").load("contacto.html");
   $("#reclamaciones").load("reclamaciones.html");
 });
+
