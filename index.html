@@ -117,10 +117,10 @@
 
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nuestros valores</a>
+                <a class="nav-link active" aria-current="page" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" href="#">Nuestros valores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Politica de privacidad</a>
+                <a class="nav-link" href="#" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Politica de privacidad</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Libro de reclamaciones</a>
@@ -128,6 +128,10 @@
               <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
+
+              <button class="nav-link active" id="nav-home-tab" >Home</button>
+    <button class="nav-link" id="nav-profile-tab" >Profile</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
             </ul>
   
           </aside>
