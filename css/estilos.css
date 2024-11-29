@@ -28,7 +28,7 @@ header {
     color: #0b6c0b; 
 }
 
-.form-inline .form-control, .form-inline .form-control-especial {
+.form-inline .form-control {
     width: 90%;
     border: 2px solid #16ae0e; 
     background-color: #ffffff;
@@ -36,11 +36,11 @@ header {
     border-radius: 20px;
 }
 
-.form-inline .form-control::placeholder, .form-inline .form-control-especial::placeholder {
+.form-inline .form-control::placeholder {
     color: #16ae0e;
 }
 
-.form-inline .form-control:focus, .form-inline .form-control-especial:focus {
+.form-inline .form-control:focus {
     border-color: #0b6c0b; 
     box-shadow: 0 0 5px #16ae0e;
 }
@@ -468,7 +468,6 @@ footer h5 {
     width: 40%;
   }
 
-  .form-control-especial {
-    
+  #especial {
     width: 50%;
   }
