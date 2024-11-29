@@ -394,6 +394,17 @@ footer h5 {
   #transparencia-img {
     order: -1;
   }
+<<<<<<< HEAD
+
+  .btn-success {
+    border-radius: 30px;
+  }
+
+  .form-control {
+    
+    width: 40%;
+  }
+=======
   
   .row {
     text-align: center;
@@ -459,3 +470,4 @@ footer h5 {
   #parra2 {
     text-align: center
   }
+>>>>>>> 1179cfb47b56f75d76ddddb36104d6b010836f6f
