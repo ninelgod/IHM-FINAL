@@ -28,7 +28,7 @@ header {
     color: #0b6c0b; 
 }
 
-.form-inline .form-control .form-control-especial {
+.form-inline .form-control, .form-inline .form-control-especial {
     width: 90%;
     border: 2px solid #16ae0e; 
     background-color: #ffffff;
@@ -36,11 +36,11 @@ header {
     border-radius: 20px;
 }
 
-.form-inline .form-control::placeholder .form-control-especial::placeholder {
+.form-inline .form-control::placeholder, .form-inline .form-control-especial::placeholder {
     color: #16ae0e;
 }
 
-.form-inline .form-control:focus .form-control-especial:focus {
+.form-inline .form-control:focus, .form-inline .form-control-especial:focus {
     border-color: #0b6c0b; 
     box-shadow: 0 0 5px #16ae0e;
 }
