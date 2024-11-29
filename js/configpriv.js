@@ -6,5 +6,6 @@ $(document).ready(function() {
   $("#valores").load("valores.html");
   $("#politica").load("politica.html");
   $("#terminos").load("terminos.html");
+  $("#contacto").load("contacto.html");
   $("#reclamaciones").load("reclamaciones.html");
 });
