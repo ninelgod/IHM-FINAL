@@ -323,6 +323,7 @@ footer h5 {
     margin-right: 10px;
 }
 
+/* catalogo */
 
 .catalogo-card {
     width: 11rem;
@@ -336,12 +337,36 @@ footer h5 {
 }
 
 .catalogo-card .card-img-top {
+    /* height: 12rem; */
     border-radius: 10px;
 }
 
 .catalogo-productos .card {
     margin: 5px 3px;
 }
+
+.catalogo-card .card-title {
+    text-align: center;
+}
+
+.icono {
+    margin: 0 10px;
+}
+
+.icono:hover {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.catalogo-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo-card .card-body .input-group {
+    margin-top: auto;
+}
+
+/* fin catalogo */
 
 .imputReclamos {
     max-width: 100%;
@@ -470,25 +495,3 @@ footer h5 {
   #especial {
     width: 100%;
   }
-
-.catalogo-card .card-title {
-    text-align: center;
-}
-
-.card-body a img {
-    margin: 0 10px;
-}
-
-.card-body a img:hover {
-    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
-}
-
-.catalogo-card .card-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.catalogo-card .card-body .input-group {
-    margin-top: auto;
-}
-
